@@ -6,9 +6,8 @@ const showPour = document.getElementById('showPour');
 showPour.innerText = pourcentage;
 
 function Increment(e) {
-    if (pourcentage === 99) {
+    if (pourcentage >= 98) {
         window.location.href = 'fail.html'
-        e.preventDefault();
     } else {
         pourcentage = pourcentage + 1;
     }

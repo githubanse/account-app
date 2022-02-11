@@ -11,9 +11,8 @@ function Increment() {
     } 
     pourcentage = pourcentage + 1;
     showPour.innerText = pourcentage;
-    console.log(pourcentage)
 }
 
-testme = setInterval(Increment, 250);
+testme = setInterval(Increment, 150);
 
 

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfert</title>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body{
+            font-size: 20px;
+        }
+        .container{
+            margin: 20px;
+        }
+        .text-align{
+            text-align: center;
+        }
+        .display-row{
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <h4 class="text-align">STATUS TRANSFER</h4>
+        <hr>
+        <div class="display-row">
+
+            <div>
+                <i class="fa fa-bank"> </i> <span> Banque </span>
+            </div>
+            <div>
+                Nordea Bank
+            </div>
+        </div>
+
+        <div class="display-row" style="margin-top: 25px;">
+        
+            <div>
+                <i class="fa fa-id-card"> </i> <span> N° bancaire </span>
+            </div>
+            <div>
+                2255-6892234157 <br>
+                <small style="color: rgb(230, 230, 230);">Stephan Widmann</small>
+            </div>
+        </div>
+
+        <div class="display-row" style="margin-top: 10px;">
+        
+            <div>
+                <i class="fa fa-calendar-times-o"> </i> <span> Date </span>
+            </div>
+            <div>
+                11/02/2022
+            </div>
+        </div>
+
+        <div class="display-row" style="margin-top: 25px;">
+        
+            <div>
+                <i class="fa fa-id-badge"> </i> <span> ID </span>
+            </div>
+            <div>
+                TS12XXXXXX014
+            </div>
+        </div>
+
+
+        <div class="loader-container">
+            <div class="progress float shadow">
+                <div class="progress__item">
+                    <span id="showPour"></span>%
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/myscript.js"></script>
+</body>
+</html>
